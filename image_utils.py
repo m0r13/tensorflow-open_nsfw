@@ -2,8 +2,6 @@ VGG_MEAN = [104, 117, 123]
 
 def create_raw_image_loader(expand_dims=True):
     import numpy as np
-    import skimage
-    import skimage.io
     from PIL import Image
     from io import BytesIO
 
